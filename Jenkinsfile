@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t cicd-demo-app:v1 .'
+                sh 'docker build -t shivamkalyana56/cicd-demo-app:v1 .'
             }
         }
 
